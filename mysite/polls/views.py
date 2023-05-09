@@ -21,4 +21,3 @@ def teacher(request):
     )
     get_teacher = Teacher.objects.all()
     return render(request, "generate-teacher.html", {"get_teacher": get_teacher})
-
