@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Teachers</title>
+</head>
+<body>
+
+{% for t in get_teacher %}
+{{ t.first_name }}
+{{ t.last_name }}
+{{ t.age }}
+{{ t.id }} <br>
+
+{% endfor %}
+</body>
+</html>
